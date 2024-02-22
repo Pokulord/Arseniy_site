@@ -1,0 +1,57 @@
+/* Импорт шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Переменные */
+
+:root {
+    --text-color: #FFAA55;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 17px;
+    background-color: #000000;
+    color: white;
+}
+
+
+/* Для окрашивания текста */
+
+.colored-text {
+    color: var(--text-color);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1184px;
+}
+/* Заголовок */
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 145px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 6.06px;
+    width: 181px;
+    height: 67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description {
+    width: 580px;
+    height : 244px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.3;
+}
