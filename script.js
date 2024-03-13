@@ -20,9 +20,58 @@ var PC_CATALOG = [
         ram : 16,
         price : 75000,
         image : "images/computers/Мечта Сани.png"
+    },
+    {
+        available: true, 
+        label : "Тест",
+        cpu_model : "Будет позже",
+        gpu_model : "Сегодня без видеокарты",
+        motherboard_model : "И без материнской платы",
+        ram : 0,
+        price : 0,
+        image : "images/computers/nophoto.jpg"
     }, 
 
-
+    {
+        available: true, 
+        label : "Тест",
+        cpu_model : "Будет позже",
+        gpu_model : "Сегодня без видеокарты",
+        motherboard_model : "И без материнской платы",
+        ram : 0,
+        price : 0,
+        image : "images/computers/nophoto.jpg"
+    }, 
+    {
+        available: true, 
+        label : "Тест",
+        cpu_model : "Будет позже",
+        gpu_model : "Сегодня без видеокарты",
+        motherboard_model : "И без материнской платы",
+        ram : 0,
+        price : 0,
+        image : "images/computers/nophoto.jpg"
+    }, 
+    {
+        available: true, 
+        label : "Тест",
+        cpu_model : "Будет позже",
+        gpu_model : "Сегодня без видеокарты",
+        motherboard_model : "И без материнской платы",
+        ram : 0,
+        price : 0,
+        image : "images/computers/nophoto.jpg"
+    }, 
+    {
+        available: true, 
+        label : "Тест",
+        cpu_model : "Будет позже",
+        gpu_model : "Сегодня без видеокарты",
+        motherboard_model : "И без материнской платы",
+        ram : 0,
+        price : 0,
+        image : "images/computers/nophoto.jpg"
+    }, 
 ] ; 
 
 
@@ -82,7 +131,7 @@ function Generate_Computers_list(catalog) {
                                 <img src="images/mb.svg" alt="">
                             </div>
                             <div class="motherboard-model" id="product-card_models">
-                                MOTHERBOARD: ${gpu_model}
+                                MOTHERBOARD: ${motherboard_model}
                             </div>
                             <div class="ram-logo">
                                 <img src="images/ram.svg" alt="">
